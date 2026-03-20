@@ -46,6 +46,9 @@ The array contains three zeros. After moving all zeros to the end while maintain
 # arr = list(map(int, input().split())) # 4 5 0 1 9 0 5 0
 # comma seperated array VERY IMPORTANT
 arr = list(map(int, input().split(','))) # 4,5,0,1,9,0,5,0
+# comma seperated array WITH BRACKETS VERY IMPORTANT
+s = input().strip("[]")
+arr = list(map(int, s.split(','))) # [4,5,0,1,9,0,5,0]
 
 zero = []
 non_zero = []
